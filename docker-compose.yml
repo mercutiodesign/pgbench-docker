@@ -1,7 +1,0 @@
-services:
-  postgres:
-    image: $DOCKER_IMAGE
-    env_file: .env
-    restart: unless-stopped
-    volumes:
-      - ./scripts:/scripts:ro
